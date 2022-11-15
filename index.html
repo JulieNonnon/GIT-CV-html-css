@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon CV</title>
+</head>
+<body>
+    
+<!-- Coordonnées -->
+
+<p class="blue"><b>Nom</b></p>
+<p class="blue"><b>Prenom</b></p>
+<p class="blue"><b>Adresse</b></p>
+<p class="blue"><b>Telephone</b></p>
+
+<!-- Photo -->
+
+<figure>
+    <img src="image\cvPortrait.jpeg" alt="Photo de moi">
+    <figcaption>Photo de moi</figcaption>
+</figure>
+
+<!-- Titre CV -->
+
+<h1>Développeur·euse Web</h1>
+
+<hr>
+
+<!-- Menu -->
+
+<h2 class="menu">Menu</h2>
+
+<div>
+    <ul>
+        <li><a href="#expPro">Experiences professionnelles</a></li>
+        <li><a href="#formations">Formations</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+
+<hr>
+
+<!-- A propos -->
+
+<p class="greenText"><b>A propos:</b> Madame Monsieur, un naturel <b>réfléchi</b> et <mark>organisé</mark>, je suis capable de m'adapter à un poste de travail et à une équipe assez rapidement. Autodidacte, j'apprends vite et je serais ravi·e de mettre ces qualités au service de votre entreprise.</p>
+
+<hr>
+
+<!-- Experiences pro -->
+
+<h2 id="expPro">Expériences professionnelles</h2>
+
+<table>
+    <tbody>
+        <tr>
+            <td><b>2016-2017</b></td>
+            <td><b>Developpeur·euse front</b></td>
+            <td>Intégration et test pour l'appli pour l'entreprise Chanel</td>
+        </tr>
+        <tr class="greenBG">
+            <td><b>2018-2019</b></td>
+            <td><b>Developpeur·euse back</b></td>
+            <td>Création de base de donnée pour l'entreprise Dailymotion</td>
+        </tr>
+        <tr>
+            <td><b>2019-2020</b></td>
+            <td><b>Developpeur·euse fullstack</b></td>
+            <td>Création du nouveau site de google</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+<!-- Formations -->
+
+<h2 id="formations">Formations</h2>
+
+<ul>
+    <li class="textBig"><b>2009-2014:</b> Master en économie à Science-po</li>
+    <li class="redText"><b>2014-2014:</b> Formation Artis à Simplon</li>
+    <li><b>2015-2016:</b> Formation Developpeur·euse à Simplon</li>
+
+</ul>
+
+<hr>
+
+<!-- Portfolio -->
+
+<h2 id="portfolio">Portfolio</h2>
+<p class="blue">Voici mon travail:</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eRZHzi3l-4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p class="blue">Voici le lien vers <a href="https://www.youtube.com/watch?v=eRZHzi3l-4Q&t=3s" target="_blank">mon site web</a></p>
+
+<hr>
+
+<!-- Contact -->
+
+<h2 id="contact">Contact</h2>
+
+<form>
+    
+    <!-- nom -->
+    <label>Nom</label>
+    <input type="text">
+    
+    <!-- email -->
+    <label>Email</label>
+    <input type="email">
+    
+    <!-- Message -->
+    <textarea cols="30" rows="10" placeholder="Votre message"></textarea>
+    
+    <!-- au choix les 2 solutions ci-dessous pour le boutton "envoyer" -->
+    <button type="submit">Envoyer</button> 
+    <!-- <input type="submit"></input> -->
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+.blue{
+    color: blue;
+}
+
+img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* STYLE DES TITRES */
+h1{
+    color: white;
+}
+
+h1, h2{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu{
+    text-align: left;
+}
+
+#formations{
+    font-weight: lighter;
+}
+
+#portfolio{
+    background-color: mediumturquoise;
+}
+
+#contact{
+    color: blue;
+}
+
+/* STYLES ICI ET LA */
+
+.greenText{
+    color: green;
+}
+
+.greenBG{
+    background-color: greenyellow;
+}
+
+.redText{
+    color: red;
+}
+
+.textBig{
+    font-size: 30px;
+}
+
+form{
+    background-color: mediumorchid;
+    color: white;
+}
+
+td{
+    border: 1px solid black;
+}
